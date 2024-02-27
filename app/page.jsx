@@ -10,7 +10,7 @@ import Breadcrums from "./components/Breadcrums";
 export default function Home() {
   return (
     <main className="mx-auto px-2 md:px-16">
-      <div className="my-5">
+      <div className="my-2">
         <Breadcrums />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
