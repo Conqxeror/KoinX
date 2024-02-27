@@ -31,7 +31,7 @@ export default function Trending() {
               <div className='font-semibold'>{coin.item.name} ({coin.item.symbol.toUpperCase()})</div>
             </div>
             <div className='flex items-center h-5 p-1 bg-green-200 text-green-500 rounded-sm text-sm'>
-              <Image alt='L' src={Poly} width={3} height={3} className='h-3 w-3 mr-1' /> {coin.item.score}%
+              <Image alt='L' src={Poly} width={10} height={10} className='mr-1' /> {coin.item.score}%
             </div>
           </div>
         ))}
