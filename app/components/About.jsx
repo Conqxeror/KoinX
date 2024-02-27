@@ -6,7 +6,7 @@ import Info2 from '../../public/Info2.png';
 
 export default function About() {
     return (
-        <div className='bg-white mt-5 p-5'>
+        <div className='bg-white mt-5 p-5 rounded-md'>
             <div className='text-xl font-bold'>About Bitcoin</div>
             <div className='font-bold text-lg pt-5'>What is Bitcoin?</div>
             <div className='pt-5'>
@@ -38,7 +38,7 @@ function InfoCard({ image, title, color }) {
                 <Image alt='L' src={image} width={110} height={110} />
             </div>
             <div className='flex flex-col justify-between gap-3'>
-                <div className='text-base font-bold text-white'>{title}</div>
+                <div className='text-base md:text-xl font-bold text-white'>{title}</div>
                 <div className='rounded-md bg-white text-xs w-fit font-bold text-center p-2 flex gap-2 justify-center'>
                     <div>Check Now</div>
                     <div>

@@ -46,7 +46,7 @@ export default function KeyEvents() {
         </div>
       </div>
       <button
-        className='absolute top-1/2 transform -translate-y-1/2 left-0 bg-gray-200 p-2 rounded-full ml-2 hidden md:flex'
+        className='absolute top-1/2 transform -translate-y-1/2 left-0 bg-white opacity-80 hover:opacity-100 p-2 rounded-full ml-2 hidden md:flex'
         onClick={() => scroll(-150)}
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-left" viewBox="0 0 16 16">
@@ -54,7 +54,7 @@ export default function KeyEvents() {
         </svg>
       </button>
       <button
-        className='absolute top-1/2 transform -translate-y-1/2 right-0 bg-gray-200 p-2 rounded-full mr-2 hidden md:flex'
+        className='absolute top-1/2 transform -translate-y-1/2 right-0 bg-white opacity-80 hover:opacity-100 p-2 rounded-full mr-2 hidden md:flex'
         onClick={() => scroll(150)}
       >
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-chevron-right" viewBox="0 0 16 16">

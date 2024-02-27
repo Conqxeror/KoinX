@@ -21,7 +21,7 @@ export default function Trending() {
   }, []);
 
   return (
-    <div className='container bg-white rounded-lg mt-5 p-5'>
+    <div className='bg-white rounded-lg mt-5 p-5'>
       <div className='text-xl font-bold mb-1'>Trending Coins (24h)</div>
       <div>
         {trendingCoins.map((coin, index) => (

@@ -1,6 +1,6 @@
 export default function AnalystEstimate() {
   return (
-    <div className='text-lg sm:text-2xl my-2 sm:my-5 flex gap-2 sm:gap-5'>
+    <div className='text-lg sm:text-2xl flex gap-2 sm:gap-5'>
       <div className='flex items-center justify-center rounded-full text-xl sm:text-3xl h-20 sm:h-32 w-32 sm:w-40 font-bold bg-green-100 text-green-500'>76%</div>
       <div className='w-full flex flex-col justify-center'>
         <Estimate label="Buy" percentage={76} color="green" />

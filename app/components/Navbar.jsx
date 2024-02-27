@@ -12,7 +12,7 @@ const NavLink = ({ href, text, className }) => (
 
 export default function Navbar() {
   return (
-    <div className='flex justify-between items-center p-2 bg-white md:px-16 max-w-full'>
+    <div className='flex justify-between items-center p-2 bg-white md:px-16 max-w-full shadow-md mb-3 md:shadow sticky top-0 z-50'>
       <div>
         <Image src={Logo} alt='L' width={'auto'} height={'auto'} />
       </div>
