@@ -1,4 +1,4 @@
-import StickerSVG from "@/public/sticker"
+import StickerSVG from "../../public/sticker"
 export default function Sticker() {
   return (
     <div className='flex flex-col bg-blue-700 p-10 text-center rounded-xl gap-5 text-white my-5 md:my-0 items-center'>

@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function AnalystEstimate() {
   const maxLabelWidth = Math.max('Buy'.length, 'Hold'.length, 'Sell'.length) * 8; // Assuming an average character width of 8px
 

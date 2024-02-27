@@ -1,8 +1,8 @@
 import React from 'react';
 import Divider from './Divider';
 import Image from 'next/image';
-import Info1 from '@/public/info1.png';
-import Info2 from '@/public/info2.png';
+import Info1 from '../../public/info1.png';
+import Info2 from '../../public/info2.png';
 
 export default function About() {
     return (
