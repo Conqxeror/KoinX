@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## KoinX Frontend Developer Assignment
 
-## Getting Started
+This project is a take-home assignment for the Frontend Developer role at KoinX. The objective is to convert a given Figma design into code using React.js or Next.js. The project involves integrating Coingecko and TradingView APIs to fetch and display real-time data about Bitcoin and other trending cryptocurrencies.
 
-First, run the development server:
+### Objective
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The main goal of this project is to create a responsive web page that displays detailed information and sentiment analysis about Bitcoin and other trending cryptocurrencies.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Screenshots
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+![image](https://github.com/Conqxeror/KoinX/assets/110852661/88bc89d9-a848-497a-8494-2bcb5651d9bc)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+### Features
 
-To learn more about Next.js, take a look at the following resources:
+- Implements all components as per the provided Figma design.
+- Fetches real-time price data of Bitcoin in USD and INR using Coingecko's `/simple/price` API.
+- Utilizes TradingView's charts of BTCUSD.
+- Fetches top 3 trending coins using Coingecko's `/search/trending` API.
+- Responsive UI design according to the Figma design.
+- Hosted on GitHub and deployed using Netlify/Vercel.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- React.js/Next.js
+- HTML/CSS
+- JavaScript
+- Coingecko API
+- TradingView API
+- GitHub
+- Netlify/Vercel
 
-## Deploy on Vercel
+### Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   git clone https://github.com/your_username/repository_name.git
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+
+   ```bash
+   npm start
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### API Documentation
+
+- Coingecko API: [Documentation](https://www.coingecko.com/api/documentation)
+- TradingView API: [Widget Docs](https://www.tradingview.com/widget-docs/widgets/charts/advanced-chart/)
+
+### Notes
+
+- Written clean and maintainable code adhering to best practices.
+- Structured commits logically and used version control effectively.
+
+### Credits
+
+- Figma design by KoinX
+- Icons from FontAwesome
+
+### Contributors
+
+- Wali Mohammad (@conqxeror)
