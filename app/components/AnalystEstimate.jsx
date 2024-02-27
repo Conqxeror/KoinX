@@ -15,7 +15,7 @@ export default function AnalystEstimate() {
 
 function renderEstimate(label, percentage, color, maxLabelWidth) {
   return (
-    <div className='flex w-full items-center gap-2'>
+    <div className='flex w-full items-center gap-2 mt-2'>
       <div className='flex-shrink-0 sm:pr-2 text-xs' style={{ width: `${maxLabelWidth}px` }}>{label}</div>
       <div className='flex flex-grow items-center gap-1 sm:gap-3'>
         <div className={`h-2 sm:h-3 w-[${percentage}%] bg-${color}-500 rounded-full`}></div>
