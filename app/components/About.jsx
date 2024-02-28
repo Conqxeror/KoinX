@@ -39,7 +39,7 @@ function InfoCard({ image, title, color }) {
             </div>
             <div className='flex flex-col justify-between gap-3'>
                 <div className='text-base md:text-3xl font-bold text-white'>{title}</div>
-                <div className='rounded-md bg-white md:text-base text-xs w-fit font-bold text-center p-2 flex gap-2 justify-center'>
+                <div className='rounded-md bg-white md:text-base text-xs w-fit font-bold text-center p-2 flex gap-2 justify-center items-center'>
                     <div>Check Now</div>
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
