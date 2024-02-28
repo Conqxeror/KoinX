@@ -20,10 +20,10 @@ export default function Navbar() {
         <NavLink href="#" text="Crypto Tax" />
         <NavLink href="#" text="Free Tools" />
         <NavLink href="#" text="Resource Center" />
-        <NavLink href="#" text="Get Started" className="hover:bg-blue-800 bg-blue-700 text-white" />
+        <NavLink href="#" text="Get Started" className="hover:bg-blue-800 bg-blue-700 text-white ml-2" />
       </div>
       <div className='md:hidden'>
-       <Image src={Shape} />
+       <Image alt='L' src={Shape} />
       </div>
     </div>
   )

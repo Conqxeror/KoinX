@@ -33,13 +33,13 @@ export default function About() {
 
 function InfoCard({ image, title, color }) {
     return (
-        <div className={`bg-gradient-to-br ${color} p-2 rounded-md flex items-center gap-5 w-full md:w-full mt-5`}>
+        <div className={`bg-gradient-to-br ${color} p-2 rounded-md flex items-center gap-5 h-auto md:h-52 w-full md:w-full mt-5`}>
             <div className='h-fit'>
-                <Image alt='L' src={image} width={110} height={110} />
+                <Image alt='L' src={image} width={100} height={100} className='md:h-fit md:w-48' />
             </div>
             <div className='flex flex-col justify-between gap-3'>
-                <div className='text-base md:text-xl font-bold text-white'>{title}</div>
-                <div className='rounded-md bg-white text-xs w-fit font-bold text-center p-2 flex gap-2 justify-center'>
+                <div className='text-base md:text-3xl font-bold text-white'>{title}</div>
+                <div className='rounded-md bg-white md:text-base text-xs w-fit font-bold text-center p-2 flex gap-2 justify-center'>
                     <div>Check Now</div>
                     <div>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">

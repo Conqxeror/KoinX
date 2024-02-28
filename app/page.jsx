@@ -9,18 +9,18 @@ import Breadcrums from "./components/Breadcrums";
 
 export default function Home() {
   return (
-    <main className="mx-auto px-2 md:px-16">
+    <main className="px-2 md:px-16">
       <div className="my-2">
         <Breadcrums />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-        <div className="md:col-span-2">
+      <div className="grid grid-cols-1 md:grid-cols-12 gap-5">
+        <div className="md:col-span-9">
           <HeroChart />
           <InfoBar />
           <Sentiment />
           <About />
         </div>
-        <div className="md:col-span-1">
+        <div className="md:col-span-3">
           <Sticker />
           <Trending />
         </div>

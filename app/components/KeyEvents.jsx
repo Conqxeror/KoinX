@@ -17,29 +17,29 @@ export default function KeyEvents() {
 
   return (
     <div className='w-full overflow-hidden relative'>
-      <div className='gap-3 h-40 flex md:overflow-x-hidden overflow-x-auto' ref={containerRef}>
+      <div className='gap-3 h-40 md:h-56 flex md:overflow-x-hidden overflow-x-auto' ref={containerRef}>
         <div className='bg-blue-300 w-80 md:w-2/3 flex-shrink-0 flex gap-1 rounded-md p-3'>
           <div className='w-32 h-fit bg-blue-500 rounded-full p-2'>
-            <Image src={news} width={300} height={300} />
+            <Image alt='L' src={news} width={300} height={300} />
           </div>
           <div className='flex flex-col'>
-            <div className='font-semibold overflow-hidden overflow-ellipsis text-sm md:text-base'>
+            <div className='font-semibold overflow-hidden overflow-ellipsis text-sm md:text-xl'>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci eos assumenda magni minus
             </div>
-            <div className='text-gray-800 overflow-hidden overflow-ellipsis text-xs md:text-base'>
+            <div className='text-gray-800 overflow-hidden overflow-ellipsis text-xs md:text-lg'>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit tempora obcaecati sit vel ullam repudiandae laudantium sed quae sequi iste porro ab accusamus soluta, nam quis at ipsum sunt veniam adipisci! Explicabo maiores ullam repellendus placeat vel quo consectetur possimus. Consectetur perspiciatis dignissimos 
             </div>
           </div>
         </div>
         <div className='bg-green-300 w-80 md:w-2/3 flex-shrink-0 flex gap-1 rounded-md p-3'>
           <div className='w-32 h-fit bg-green-500 rounded-full p-2'>
-            <Image src={money} width={300} height={300} />
+            <Image alt='L' src={money} width={300} height={300} />
           </div>
           <div className='flex flex-col'>
-            <div className='font-semibold overflow-hidden overflow-ellipsis text-sm md:text-base'>
+            <div className='font-semibold overflow-hidden overflow-ellipsis text-sm md:text-xl'>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci eos assumenda magni minus
             </div>
-            <div className='text-gray-800 overflow-hidden overflow-ellipsis text-xs md:text-base'>
+            <div className='text-gray-800 overflow-hidden overflow-ellipsis text-xs md:text-lg'>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit tempora obcaecati sit vel ullam repudiandae laudantium sed quae sequi iste porro ab accusamus soluta, nam quis at ipsum sunt veniam adipisci! Explicabo maiores ullam repellendus placeat vel quo consectetur possimus. Consectetur perspiciatis dignissimos 
             </div>
           </div>
