@@ -75,16 +75,16 @@ const HeroChart = () => {
           <div className='flex gap-3 items-center'>
             <div className='font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl'>${usd.toFixed(2)}</div>
             <div className='flex gap-1 items-center'>
-              <div className={`gap-1 flex items-center p-1 rounded-md text-sm sm:text-sm md:text-sm ${usd_24h_change >= 0 ? 'bg-green-200 text-green-500' : 'bg-red-200 text-red-500'}`}>
+              <div className={`gap-1 flex items-center p-1 rounded-md text-xs sm:text-sm md:text-sm ${usd_24h_change >= 0 ? 'bg-green-200 text-green-500' : 'bg-red-200 text-red-500'}`}>
                 <Image alt='L' src={Poly} width={10} height={10} /> {usd_24h_change.toFixed(2)}%
               </div>
-              <div className='text-gray-400 text-sm sm:text-sm md:text-sm'>(24hr)</div>
+              <div className='text-gray-400 text-xs sm:text-sm md:text-sm'>(24hr)</div>
             </div>
           </div>
           <div className='text-lg sm:text-xl md:text-2xl lg:text-xl mt-1 md:mt-2 mb-5 font-medium'>₹{inr.toLocaleString('en-IN')}</div>
         </div>
         <Divider />
-        <div className='font-semibold text-lg mb-3'>Bitcoin Price Chart (USD)</div>
+        <div className='font-semibold text-sm md:text-lg mb-3'>Bitcoin Price Chart (USD)</div>
         <div className='h-96 w-full'>
           <TradingViewWidget key={symbol} symbol={symbol} />
         </div>
