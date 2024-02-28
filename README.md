@@ -8,7 +8,7 @@ The main goal of this project is to create a responsive web page that displays d
 
 ### Screenshots
 
-![image](https://github.com/Conqxeror/KoinX/assets/110852661/88bc89d9-a848-497a-8494-2bcb5651d9bc)
+![image](https://github.com/Conqxeror/KoinX/assets/110852661/2f3f533e-4b83-4c0b-9029-38a46a0e2162)
 
 
 ### Features
